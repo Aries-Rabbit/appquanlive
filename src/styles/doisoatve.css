@@ -1,0 +1,130 @@
+.doisoat{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+/* Đối soát vé */
+.doisoatve{
+    position: absolute;
+    left: 230px;
+    border-radius: 20px;
+    width: 970px;
+    height: 645px;
+    background-color: rgb(255, 255, 255) ;
+}
+.tieudedoisoatve{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 33px;
+    font-weight: 700;
+}
+.inputtimbangsove{
+    border: none;
+    outline: none;
+    position: absolute;
+    left: 30px;
+    background-color: #EDEDED;
+    height: 30px;
+    width: 270px;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:#919191; 
+    font-size: 10px;
+}
+
+.buttonchotdoisoat{
+    background-color: white;
+    color: #FFB800;
+    font-size: 17px;
+    font-weight: 700;
+    border: 2px solid #FFB800;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+    margin-left: 68%;
+}
+.buttonchotdoisoat:hover{
+    background-color: #FFB800;
+    color: white;
+}
+
+.buttonxuatfiledoisoat{
+    margin-left: 10px;
+    background-color: white;
+    color: #FFB800;
+    font-size: 17px;
+    font-weight: 700;
+    border: 2px solid #FFB800;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.buttonxuatfiledoisoat:hover{
+    background-color: #FFB800;
+    color: white;
+}
+
+.tabledoisoatve{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 920px;
+    height: 525px;
+}
+
+/* Lọc vé */
+.locve{
+    position: absolute;
+    left: 1210px;
+    border-radius: 20px;
+    width: 300px;
+    height: 645px;
+    background-color: rgb(255, 255, 255) ;
+}
+
+.locvetieude{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.ant-select-selector{
+    border: none !important;
+    outline: none !important;
+    border-radius: 10px !important;
+    background-color: #F1F4F8 !important;
+}
+
+.ant-select {
+    color: rgb(95, 95, 95) !important;
+}
+
+.optiontinhtrangdoisoat{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.buttondoisoat{
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    border: 2px solid #FFB800;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFB800;
+    border-radius: 7px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.buttondoisoat:hover{
+    background-color: #FFB800;
+    color: white;
+}

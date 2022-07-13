@@ -1,0 +1,291 @@
+/* Css của chung */
+.quanlyve{
+    position: absolute;
+    left: 230px;
+    border-radius: 20px;
+    width: 1290px;
+    height: 645px;
+    background-color: white ;
+}
+
+.quanlyve .tieudedanhsachve{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.tabs{
+    margin-left: 30px;
+    width: 1230px;
+}
+
+/* Css của Tabs */
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #FFB800 !important;
+    font-weight: 700;
+    text-shadow: 0 0 0.25px currentcolor;
+}
+
+.ant-tabs-top > .ant-tabs-nav .ant-tabs-ink-bar, .ant-tabs-top > div > .ant-tabs-nav .ant-tabs-ink-bar {
+    bottom: 0;
+    background-color: #FFB800;
+    color: #FFB800;
+}
+
+.ant-tabs-tab-btn:focus, .ant-tabs-tab-remove:focus, .ant-tabs-tab-btn:active, .ant-tabs-tab-remove:active {
+    color: #FFB800 !important;
+}
+
+.ant-tabs-tab:hover {
+    color: #FFB800 !important;
+}
+
+/* Css chi tiết */
+.khungtren{
+    display: flex;
+    width: 100%;
+    height: 30px;
+}
+
+.searcher{
+    border: none;
+    outline: none;
+    position: absolute;
+    left: 30px;
+    background-color: #EDEDED;
+    height: inherit;
+    width: 270px;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 30px;
+    color:#919191; 
+}
+
+.icongoigiadinh{
+    position: absolute;
+    left: 280px;
+    top: 132px;
+    
+}
+
+/* Css cho modal */
+
+.buttonmodal {
+    position: absolute;
+    top: 122px;
+    left: 965px;
+    padding-left: 10px !important;
+    align-items: center !important;
+    display: flex !important;
+
+    width: 120px;
+    padding: 0 !important;
+    border-radius: 5px !important;
+    border: 2px solid #FFB800 !important;
+    background: #fff !important;
+
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    color: #FFB800 !important;
+    
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+
+.buttonmodal:hover {
+    background-color: #FFB800 !important;
+    color: #fff !important;
+}
+
+.iconfilter{
+    margin-left: 12px;
+    margin-right: 5px;
+}
+
+.ant-modal-title {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 700 !important;
+    font-size: 25px !important;
+    line-height: 22px;
+    word-wrap: break-word;
+
+}
+
+.ant-modal-header {
+    padding: 16px 24px;
+    color: rgba(0, 0, 0, 0.85);
+    background: #fff;
+    border-bottom: none !important;
+    border-radius: 10px !important;
+}
+
+.ant-modal-content {
+    position: relative;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 10px !important;
+    box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%), 0 9px 28px 8px rgb(0 0 0 / 5%);
+    pointer-events: auto;
+}
+
+
+.from-d-to-d{
+    text-align: left;
+    display: flex;
+}
+
+.endday{
+    margin-left: 15%;
+}
+
+.ant-picker:hover, .ant-picker-focused {
+    border-color: #FFB800 !important;
+    border-right-width: 1px;
+}
+
+.ant-picker-suffix{
+    font-weight: 600;
+    color: #FFB800 !important;
+}
+
+.ant-picker-date-panel .ant-picker-content th {
+    width: 36px;
+    color: #ff6600 !important;
+    font-weight: 600 !important;
+}
+
+ .ant-picker-cell-inner::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    border: none !important ;
+    border-radius: 2px;
+    content: '';
+}
+.ant-picker-cell-in-view .ant-picker-cell-inner:hover{
+    background-color: #FFBA7B !important;
+    color: #fff;
+    border-radius: 15px;
+}
+
+
+.tinhtrangsudung{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.congcheckin{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.buttonlocve{
+    border: 2px solid #FFB800 !important;
+    color: #FFB800 !important;
+    margin-top: 20px;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    height: 40px !important;
+    width: 120px !important;
+    border-radius: 10px !important;
+}
+
+.buttonlocve:hover{
+    background-color: #FFB800 !important;
+    color: #fff !important;
+}    
+
+
+/* Css cho nút xuất file */
+.xuatfilebutton{
+    position: absolute;
+    top: 122px;
+    left: 1090px;
+    padding-left: 10px !important;
+    align-items: center !important;
+    display: flex !important;
+
+    width: 140px;
+    padding-left: 7px !important;
+    border-radius: 5px !important;
+    border: 2px solid #FFB800 !important;
+    background: #fff !important;
+
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    color: #FFB800 !important;
+}
+
+.xuatfilebutton:hover{
+    background-color: #FFB800 !important;
+    color: #fff !important;
+}
+
+
+/* Css cho table */
+.tabledanhsachve{
+    position: absolute;
+    top: 160px;
+    width: 1232px;
+    height: 480px;
+}
+
+.ant-table-thead > tr > th{
+    position: relative;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    text-align: left;
+    height: 20px !important;
+    background: #F1F4F8 !important;
+    border-bottom: 1px solid #ffffff;
+    transition: none !important;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td {
+    position: relative;
+    padding-left: 6px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    overflow-wrap: break-word;
+    font-size: 12px !important;
+}
+
+.ant-table-tbody > tr:nth-child(even){
+    background-color: #F7F8FB;
+}
+
+.ant-table-pagination-right {
+    justify-content: center !important;
+}
+
+.ant-pagination-item a {
+    display: block;
+    padding: 0 6px;
+    color: #FF993C !important;
+    transition: none;
+}
+
+.ant-pagination-item-active {
+    font-weight: 500;
+    background: #fff;
+    border-color: #FF993C !important;
+}
+
+
+/* Modal cập nhật ngày sử dụng vé */
+
+.btncapnhatngaysudung{
+    background: none !important;
+    border: none !important;
+    color: #000000 !important;
+    height: auto !important;
+    box-shadow: none !important;
+}
