@@ -306,41 +306,28 @@ const Tab = () => {
 
     <Tabs defaultActiveKey="1" onChange={callback}>
 
-      {/* Gói gia đình*/}
+      {}
 
-      <TabPane tab="Gói Gia Đình" key="1" className='goigiadinh'> 
+      <TabPane tab="Chi tiết vé" key="1" className='goigiadinh'> 
 
-      {/* Khung Trên Gói Gia Đình */}
+      {}
 
         <div className='khungtren'> 
           <input type='text' className='searcher' /><SearchOutlined className='icongoigiadinh' />
         </div>
 
-      {/* Modal Cho Gói Gia Đình */}
+      
 
         <div className='modal'> 
           <Modals />
         </div>
 
-        <Button className='xuatfilebutton'>Xuất file (.csv)</Button> {/* Xuất file gói gia đình  */}
+        <Button className='xuatfilebutton'>Xuất file (.csv)</Button> {/* Xuất file   */}
 
         <Table columns={columns} dataSource={ticketArray?.value?.map((ticket: any) => ({ ...ticket, key: ticket.id }))} className='tabledanhsachve' />
       </TabPane>
 
-      <TabPane tab="Gói sự kiện" key="2"> {/* Gói sự kiện */}
-
-        <div className='khungtren'> {/* Khung Trên Gói Sự kiện */}
-          <input type='text' className='searcher' /><SearchOutlined className='icongoigiadinh' />
-        </div>
-
-        <div className='modal'> {/* Modal Cho Gói Sự kiện */}
-          <Modals />
-        </div>
-
-        <Button className='xuatfilebutton'>Xuất file (.csv)</Button> {/* Xuất file gói sự kiện  */}
-
-        <Table columns={columns} dataSource={ticketArray?.value?.map((ticket: any) => ({ ...ticket, key: ticket.id }))} className='tabledanhsachve' />
-      </TabPane>
+     
 
     </Tabs>
   )
