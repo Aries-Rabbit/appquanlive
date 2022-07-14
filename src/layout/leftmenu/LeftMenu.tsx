@@ -28,16 +28,6 @@ export const LeftMenu = () => {
             icon: <RiFileList3Line />,
         },
         {
-            title: "Danh Sách Sự Kiện",
-            path: "/",
-            icon: <MdOutlineFormatListBulleted />,
-        },
-        {
-            title: "Quản Lý Thiết Bị",
-            path: "/",
-            icon: <CgScreen />,
-        },
-        {
             title: "Cài Đặt",
             path: "/CaiDatVe",
             icon: <SettingOutlined />,
