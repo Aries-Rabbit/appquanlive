@@ -80,7 +80,7 @@ const CheckboxGateCheck = () => {
 };
 
 
-// Modal Cho gói gia đình và sự kiện:
+// 
 const Modals = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);
 
