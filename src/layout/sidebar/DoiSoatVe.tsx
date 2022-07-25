@@ -65,7 +65,7 @@ export const DoiSoatVe = () => {
 
   console.log(ticketArray)
 
-  // table của firesotre
+  // table của firestore
     const columns = [
         {
             title: 'STT',
